@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A webpage demonstrating the CSS Box Model with text, images, and links.">
+    <meta name="keywords" content="CSS, Box Model, HTML, CSS Padding, CSS Borders, CSS Margins">
+    <meta name="author" content="Robsen Liender">
+    <title>The CSS Box Model</title>
+    <link rel="stylesheet" href="resources/box_model_style.css">
+</head>
+<body>
+
+<ul>
+<li> <a href="running.html">Trail Running </a> </li>
+<li> <a href="box_model.html">CSS Box Model </a> </li>
+</ul>
+
+
+    <!-- Overhead content -->
+    <header>
+        <h1>The CSS Box Model</h1>
+        <p>The CSS box model identifies the four parts of the HTML element that can be styled. Let's consider each part and see their effect.</p>
+    </header>
+
+    <!-- Paragraph and new image about CSS box model -->
+    <p>The CSS Box Model is essential for understanding how elements on a webpage are displayed and interact with one another. It consists of four parts: content, padding, border, and margin. Below, we explore each of these parts and demonstrate how they affect an element’s layout.</p>
+
+    <!-- Add the new image -->
+    <img src="resources/boxmodel.jpg" alt="Diagram of the CSS Box Model" width="800" height="600">
+
+    <h2>The Four Parts of the CSS Box Model</h2>
+    <ol>
+        <li>Content</li>
+        <li>Padding</li>
+        <li>Border</li>
+        <li>Margin</li>
+    </ol>
+
+    <p>Each HTML element has a content box, which contains the content. The size of the content box can be adjusted with CSS width and height properties. Surrounding the content are padding, borders, and margins, each of which can be styled individually using CSS.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Box Part</th>
+                <th>CSS Properties</th>
+                <th>Link to Reference</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Content</td>
+                <td>width, height</td>
+                <td>none</td>
+            </tr>
+            <tr>
+                <td>Padding</td>
+                <td>padding, padding-top, padding-right, padding-bottom, padding-left</td>
+                <td><a href="https://www.w3schools.com/css/css_padding.asp" title="Learn more about CSS Padding">w3schools CSS Padding</a></td>
+            </tr>
+            <tr>
+                <td>Border</td>
+                <td>border, border-style, border-width, border-color</td>
+                <td><a href="https://www.w3schools.com/css/css_border.asp" title="Learn more about CSS Borders">w3schools CSS Borders</a></td>
+            </tr>
+            <tr>
+                <td>Margin</td>
+                <td>margin, margin-top, margin-right, margin-bottom, margin-left</td>
+                <td><a href="https://www.w3schools.com/css/css_margin.asp" title="Learn more about CSS Margins">w3schools CSS Margins</a></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>The CSS Box Model in Action</h2>
+
+    <h3>Text Content</h3>
+    <p class="text-example">We will use this paragraph to demonstrate how the parts of the box model work when the content is text. By adding the different CSS properties we can see the effect they have.</p>
+
+    <h3>Image Content</h3>
+    <p>Now let's see the effect of the box model properties on images:</p>
+    <div class="image-example">
+        <a href="https://www.w3schools.com/css/css_border.asp" title="Learn about borders in CSS">
+            <img src="resources/border.jpg" alt="Image demonstrating CSS borders" width="600" height="400">
+        </a>
+    </div>
+
+    <h2>Links</h2>
+    <ul>
+        <li><a href="https://www.w3schools.com/css/css_padding.asp" title="Learn more about CSS Padding">w3schools CSS Padding</a></li>
+        <li><a href="https://www.w3schools.com/css/css_border.asp" title="Learn more about CSS Borders">w3schools CSS Borders</a></li>
+        <li><a href="https://www.w3schools.com/css/css_margin.asp" title="Learn more about CSS Margins">w3schools CSS Margins</a></li>
+        <li><a href="https://css-tricks.com/almanac/properties/b/border/" title="Learn more about the border property">CSS Tricks: Border</a></li>
+    </ul>
+
+</body>
+</html>

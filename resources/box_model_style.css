@@ -1,0 +1,87 @@
+/* Accent Colors:
+   Accent 1: #3E8E41 (Green)
+   Accent 2: #E08A1D (Golden-Orange)
+*/
+
+
+/* Define the accent colors for the website */
+:root {
+    --accent1: #3E8E41; /* Green */
+    --accent2: #E08A1D; /* Golden-Orange */
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    padding: 20px;
+    background-color: #FFFFFF; /* White background */
+    font-size: 16px; 
+}
+
+h1, h2, h3 {
+    color: var(--accent1); /* Set text color of headings to Accent 1 */
+}
+
+/* Centering the large heading (h1) */
+h1 {
+    text-align: center; /* Center align the h1 heading */
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Collapse borders */
+    margin-top: 20px;
+}
+
+th, td {
+    border: 2px solid var(--accent2); /* Border color set to Accent 2 */
+    padding: 15px; /* Add padding to cells */
+    text-align: left;
+}
+
+/* Text Link Styles */
+a {
+    color: var(--accent1); /* Set text color of links to Accent 1 */
+    font-weight: bold; /* Make links bold */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    color: var(--accent2); /* Change color to Accent 2 when hovered */
+}
+
+/* Text Content Paragraph Style */
+.text-example {
+    background-color: var(--accent1); 
+    color: white; 
+    width: 80%; 
+    padding: 20px; 
+    border: 2px solid var(--accent2); /* Border with Accent 2 color */
+    border-style: dashed; /* Use dashed border style */
+    margin: 20px 0; /* Add margin to separate it from other elements */
+}
+
+/* Image Content Section */
+.image-example {
+    background-color: var(--accent1); /* Set background color to Accent 1 */
+    width: 646px; /* Set width to the width of the image */
+    padding: 20px; /* Add padding around the image */
+    border: 3px solid var(--accent2); /* Set border to Accent 2 with different style */
+    border-style: solid; /* Solid border style */
+    margin: 20px auto; /* Center the container with auto margin */
+}
+
+/* Body Padding */
+body {
+    padding: 30px; /* Add padding to move content away from the edges */
+}
+
+/* Styling for div container around image */
+.image-example div {
+    padding: 20px;
+    border: 3px solid var(--accent2); /* Different border style from other elements */
+    margin: 20px;
+}
